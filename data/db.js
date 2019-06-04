@@ -3,12 +3,12 @@ const knexConfig = require('../knexfile.js');
 const db = knex(knexConfig.development);
 
 module.exports = {
-  find,
-  findById,
-  insert,
-  update,
-  remove,
-  findPostComments,
+  find, // *
+  findById, // *
+  insert, // *
+  update, // *
+  remove, // *
+  findPostComments, // *
   findCommentById,
   insertComment,
 };
